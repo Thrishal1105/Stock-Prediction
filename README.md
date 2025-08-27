@@ -8,20 +8,9 @@ A simple Streamlit app that downloads historical stock data with `yfinance`, vis
 - Visualization: price, 100MA, 200MA
 - Loads `keras_model.h5` and displays predictions vs original
 
-### Quickstart (Windows PowerShell)
-```powershell
-./run_app.ps1
-```
-This script will create a virtual environment, install dependencies from `requirements.txt`, and run the app.
+![image alt](https://github.com/Thrishal1105/Stock-Prediction/blob/1fd6189d7ab00bacde199f0015814f9cbb612f6a/Screenshot%202025-08-27%20145358.png)
 
-If you prefer manual steps:
-```powershell
-py -m venv .venv
-.\.venv\Scripts\Activate.ps1
-py -m pip install --upgrade pip
-py -m pip install -r requirements.txt
-streamlit run app.py
-```
+
 
 ### Dependencies
 See `requirements.txt`. Key libraries: `streamlit`, `yfinance`, `pandas`, `numpy`, `matplotlib`, `scikit-learn`, `keras`, `tensorflow`.
@@ -29,10 +18,7 @@ See `requirements.txt`. Key libraries: `streamlit`, `yfinance`, `pandas`, `numpy
 ### Model File
 - Place your trained model as `keras_model.h5` in the project root (already referenced by `app.py`).
 
-### Screenshot
-The app’s predictions chart (provided by you) is embedded below. Save your image to `assets/predictions.png` to display it here.
 
-![Predictions vs Original](assets/predictions.png)
 
 
 ### Notes
