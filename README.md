@@ -8,6 +8,10 @@ A simple Streamlit app that downloads historical stock data with `yfinance`, vis
 - Visualization: price, 100MA, 200MA
 - Loads `keras_model.h5` and displays predictions vs original
 
+### Training-70%
+### Testing-30%
+
+
 ![image alt](https://github.com/Thrishal1105/Stock-Prediction/blob/1fd6189d7ab00bacde199f0015814f9cbb612f6a/Screenshot%202025-08-27%20145358.png)
 
 
